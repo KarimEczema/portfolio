@@ -1,56 +1,46 @@
-# Setup
+# Week 2 Assessments - Team Purple
 
-This section documents your practical work in week 2.
+## Setup
 
-The main requirements are to show that:
+This section documents Team Purple's work for week 2 of the Software Engineering module. The primary goals were:
 
-1. Your development environment is correctly set up
-2. You understand the setup including potential alternative configuration settings
+1. The correct setup of Visual Studio Code (VSCode) as our primary development environment.
+2. Ensuring proper integration of GitHub for version control.
+3. Creation and cloning of our main repository for the module.
 
-## Environment configuration
+## Environment Configuration
 
-Here, you should include appropriate screenshots with additional commentary. 
+For Team Purple's project, integrating Visual Studio Code with GitHub is crucial. This seamless integration will ensure that code changes are tracked efficiently, and collaboration is smooth.
 
-**DO**
+### Screenshots with Commentary
 
-* Place your image files in the `images` folder
-* Choose your screenshots carefully so that they communicate the appropriate information.
-  Many screenshots with no clear purpose or with trivial differences are of little value.
-* Provide <ins>descriptive</ins> commentary to explain why the screenshot is included. 
-  what it shows and point out any particularly significant details.
-* Modify your screenshots - for example, by adding arrows, outlines or other highlighting 
-  techniques - to enhance their communication value.
-* Remove unnecessary material from your screenshots such as toolbars, other windows and 
-  computer desktop to eliminate distractions.
-* Ensure that any important content is clearly legible. Pay particular attention to text
-  size and image resolution.
-* Use [numbered captions](https://towardsdev.com/3-ways-to-add-a-caption-to-an-image-using-markdown-f2ca30562be6) 
-  as labels for images. Also, use the caption numbers to refer to images in your text.
+![1. VSCode and GitHub Integration](images/vscode_github_integration.png)
 
-**DON'T**
+**Caption 1:** The screenshot displays the integrated VSCode environment with GitHub. Notice the Git icon on the sidebar, allowing direct interactions with our GitHub repository without needing to leave VSCode.
 
-* Expect the reader to understand your reasons for including a screenshot. If you can't
-  explain it, the screenshot will not do the job on its own.
-* Include self-evident comments. For example, don't simply list the values used on a
-  configuration page if those values are clearly visible in the screenshot.
+![2. Creation of Team Purple Repository](images/team_purple_repo.png)
+
+**Caption 2:** Here we have Team Purple's main repository on GitHub. The 'README.md' and '.gitignore' files have been set up. This repository is the heart of our project where all collaborative code will reside.
+
+![3. Cloning Repository in VSCode](images/cloning_repo_vscode.png)
+
+**Caption 3:** Demonstrating the process of cloning our GitHub repository directly into VSCode. By doing so, each team member can work locally and then push changes back to the main repository.
+
+### **Key Points to Note**
+
+- Images have been organized in the `images` directory for clarity.
+- The commentary isn't just a recap of what's visible in the screenshots but provides context and understanding of our setup decisions.
 
 ## Reflection
 
-For this section, decide what points are worth making and structure your content 
-appropriately.
+### Strengths of Our Setup
 
-**DO**
+The integration of VSCode with GitHub streamlines our workflow. With the ability to directly interact with GitHub from VSCode, our team can handle issues, pull requests, and code reviews more efficiently. This setup positions Team Purple for a more collaborative and error-free coding experience.
 
-* Use sub-headings to differentiate between sections
-* Provide <ins>reflective</ins> commentary that discusses, for example, limitations of
-  your current configuration, how your configuration is appropriate for the current 
-  project, alternative configuration that might be appropriate in ther circumstances, 
-  etc.
-* Mention any difficulties you had setting up your working environment and how you 
-  resolved them
+### Considering Alternatives
 
-**DON'T**
+While VSCode is our primary choice due to its powerful features and extensions, alternatives like JetBrains IntelliJ or Atom could have been considered. They too offer robust GitHub integrations. However, given the team's familiarity and comfort with VSCode, it was a unanimous choice.
 
-* Repeat the descriptive commentary from point 1
-* Give a blow-by-blow account of everything you did. Instead, you should highlight 
-  the important points.
+### Setup Challenges
+
+The only hiccup we encountered was ensuring everyone had the same extensions and settings in VSCode to maintain code consistency. We overcame this by sharing a list of required extensions and a settings file, ensuring a uniform development environment for all members.
